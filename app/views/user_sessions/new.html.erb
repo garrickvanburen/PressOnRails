@@ -1,0 +1,15 @@
+
+<% form_tag '/user_sessions' do %>
+
+  <%= label_tag 'name' %>
+  <%= text_field_tag :login %>
+
+
+  <%= label_tag 'password' %>
+  <%= password_field_tag :pass %>
+
+  <%= check_box_tag :remember_me %> Remember Me
+
+
+  <%= submit_tag "Sign in", :disable_with => "Signing in..." %>
+<% end %>

@@ -1,0 +1,68 @@
+====
+WELCOME TO PRESS ON RAILS
+====
+Press on Rails is a Ruby on Rails weblog application is designed to be a 100% compatible, drop-in replacement for the PHP-based WordPress system. 
+
+
+==== 
+LICENSING
+====
+Press on Rails, like WordPress, is licensed under the GNU Public License 2.0
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+
+
+====
+INSTALLATION
+====
+1. Edit config/database.yml to point at your WordPress database
+2. Upload to your server
+3. Start your server
+
+
+====
+TO DO
+====
+	- Return Posts
+	- Return Pages
+	- Return Search Results
+	- Return Category Posts
+	--------------	
+	- Sign-in - uses PHPass' PasswordHash in 8 interations w/ random (ip and microtime). Rebuild using bcrypt-ruby?
+	- Sign-out
+	- Create account
+	- Create post
+	- Create post dated in the future
+	- Update post
+	- Delete post
+	- Cucumber tests (How to test w/o migrations?)
+	--------------
+	- auto-short-linking
+	- Add email-to-post
+	- Add post-to-email
+	- Add Feed parsing
+	- Add cron jobs
+	- xmlrpc
+	- paperclip for file-uploads?
+	- syntax for posts (haml, redcloth, yaml, textile, wysihat?)
+	- pinging other sites?
+	- auto-post-to-twitter (etc)
+	- google maps/amazon/youtube/flash video/etc integration
+	- built-in google (etc) sitemaps
+	- built-in iCal
+	- built-in iTunes feed
+	- built-in JSON feed
+	- built-in mobile version
+	- atom publishing protocol
+	- related posts
+	- 1 (week/month/year) ago on this blog
+	- support themes
+	- pull enclosure info from media
+	- ping servers
+	- ping back links in posts	
+	- askimet compatiblity (w/ raskimet)
+	- avatar compatiblity (twitter, gravatar, etc) ?
+	- image scaling, etc
+	- stats
+	- search engine blocking
+	- licensing (creative commons, gpl, etc)
+	- search

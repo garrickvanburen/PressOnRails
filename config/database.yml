@@ -1,0 +1,23 @@
+development:
+  adapter: mysql
+  database: root_wordpress
+  username: root
+  password: 
+  host: localhost
+
+test: &TEST
+  adapter: mysql
+  database: root_wordpress
+  username: root
+  password:
+  host: localhost
+
+production:
+  adapter: mysql
+  database: garrickvanburen_com_wordpress
+  username: 
+  password: 
+  host: localhost
+
+cucumber:
+  <<: *TEST

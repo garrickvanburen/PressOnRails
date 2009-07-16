@@ -1,0 +1,3 @@
+<% @users.each do |u| %>
+	<%= link_to u.user_nicename, user_posts_url(u) %>
+<% end %>

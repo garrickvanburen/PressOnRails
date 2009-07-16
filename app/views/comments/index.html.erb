@@ -1,0 +1,7 @@
+<h1>Comments#index</h1>
+
+<% @comments.each do |comment| %>
+	<%= comment.comment_content %>	
+	<%= link_to comment.comment_author, comment.comment_author_url %>
+	<%= time_ago_in_words comment.comment_date %> ago
+<% end %>

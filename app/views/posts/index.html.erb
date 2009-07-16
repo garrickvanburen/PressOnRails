@@ -1,0 +1,11 @@
+
+
+<% @posts.each do |post| %>
+	<h1><%= post.post_title %></h1>
+	<%= post.post_content %>	
+	<%= link_to post.user.user_nicename, user_posts_url(post.user) %>
+	<%= link_to pluralize(post.comment_count, "Comment"), post_comments_url(post) %>	
+	<%= time_ago_in_words post.post_date %> ago
+	<%= link_to 'Edit', edit_post_url(post) %>
+	<%= post.meta['start_date'] %>
+<% end %>

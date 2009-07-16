@@ -1,0 +1,2 @@
+Rakismet::KEY = ''
+Rakismet::URL = ''

@@ -1,0 +1,10 @@
+<h1>Edit <%= h @post.post_title %></h1>
+
+<% form_for(@post) do |f| %>
+	<%= render :partial => 'form', :locals => { :f => f } %>
+	<p class="button">
+		<%= f.submit 'Update Post', :disable_with => 'Updating' %>
+		<%= f.submit 'Save Draft', 	:disable_with => 'Saving' %>	
+	</p>
+<% end %>
+

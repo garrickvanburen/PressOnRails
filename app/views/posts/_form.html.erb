@@ -1,0 +1,46 @@
+
+	<%= f.label :title %>
+	<br />
+	<%= f.text_field :post_title %>
+	
+	<br />
+	
+	<%= f.label 'Short Name' %>	
+	<br />
+	<%= f.text_field :post_name %>
+
+	<br />
+	
+	<%= f.label :content %>	
+	<br />
+	<%= f.text_area :post_content %>
+
+	<br />
+	
+	<%= f.label :publish_date %>
+	<br />
+	<%= f.text_field :post_date %>
+
+	<br />	
+	
+	<% fields_for :categories do |c| %>
+		<%= f.label :categories %>
+		<% all_categories.each do |a| %>
+			<%= link_to a.name, '#' %>
+		<% end %>
+		<br />
+		<%= f.label :new_category %>
+		<%= c.text_field :name %>
+	<% end %>
+	
+	<br />
+	
+	<% fields_for :post_metadata do |m| %>
+		<%= f.label :post_metadata %>
+		
+		<%= m.label :key %>
+		<%= m.text_field :meta_key %>
+		<%= m.label :value %>
+		<%= m.text_field :meta_value %>		
+
+	<% end %>
