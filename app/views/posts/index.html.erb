@@ -10,7 +10,7 @@
 		<div class="post-comments">
 			<h2><%= pluralize post.comment_count, "Comment" %></h2>
 			<% post.comments.each do |comment| %>
-				<%= render :partial => "comment", :locals => {:comment => comment}%>
+				<%= render :partial => "posts/comment", :locals => {:comment => comment}%>
 			<% end %>
 		</div>
 		<% end %>
