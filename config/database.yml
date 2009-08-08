@@ -1,6 +1,6 @@
 development:
   adapter: mysql
-  database: root_wordpress
+  database: garrick_firstcrackpodcast_wordpress
   username: root
   password: 
   host: localhost
@@ -14,7 +14,7 @@ test: &TEST
 
 production:
   adapter: mysql
-  database: garrickvanburen_com_wordpress
+  database: garrick_firstcrackpodcast_wordpress
   username: 
   password: 
   host: localhost

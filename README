@@ -22,10 +22,10 @@ INSTALLATION
 ====
 TO DO
 ====
-	- Return Posts
-	- Return Pages
+	[x] Return Posts
+	[x] Return Pages
 	- Return Search Results
-	- Return Category Posts
+	[x] Return Category Posts
 	--------------	
 	- Sign-in - uses PHPass' PasswordHash in 8 interations w/ random (ip and microtime). Rebuild using bcrypt-ruby?
 	- Sign-out
@@ -50,7 +50,7 @@ TO DO
 	- built-in google (etc) sitemaps
 	- built-in iCal
 	- built-in iTunes feed
-	- built-in JSON feed
+	[x] built-in JSON feed
 	- built-in mobile version
 	- atom publishing protocol
 	- related posts

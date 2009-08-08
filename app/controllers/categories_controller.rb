@@ -5,6 +5,10 @@ class CategoriesController < ApplicationController
   end
 
   def show
+    @category = Category.find_by_name(params[:id])
+    @posts = @category.posts.reverse
+    logger.info(@posts)
+    render :template => 'posts/index' 
   end
 
   def new

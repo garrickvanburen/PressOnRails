@@ -3,12 +3,16 @@
 
 <head>
 	<title>
-		<%= @post.post_title if @post %>
+		<%= "#{@search_terms} ~ " 	 if @search_terms %>
+		<%= "#{@category.name} ~ " 	 if @category %>
+		<%= "#{@post.post_title} ~ " if @post %>
 		<%= options['blogname'] %>	
 	</title>
 	
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Language" content="en-us" />	
+	
+	<link rel="alternate" type="application/rss+xml" title="<%= options['blogname'] %>" href="<%= rss_feed_url %>" />
 	
 	<%= stylesheet_link_tag 'styles' %>	
 	

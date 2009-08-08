@@ -6,6 +6,6 @@ class Comment < ActiveRecord::Base
   belongs_to :user
   belongs_to :post, :foreign_key => 'comment_post_ID', :counter_cache => 'comment_count'
 
-  has_raskimet
+  #has_raskimet
 
 end

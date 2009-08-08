@@ -1,3 +1,16 @@
+<div id="categories">
+	<% Category.all.each do |category| %>
+		<%= link_to category.name, category_url(category) %>
+	<% end %>
+</div>
+
+
+<div id="pages">
+	<% Post.find(:all, :conditions => {:post_type => 'page'}, :order => 'post_title ASC').each do |page| %>
+		<%= link_to page.post_title, post_url(page) %>
+	<% end %>
+</div>
+
 <div id="footer">
 	Proudly Running <%= link_to APP_NAME, APP_URL %>
 </div>

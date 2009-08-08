@@ -1,2 +1,5 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+<h1><%= @post.post_title %></h1>
+<%= @post.post_content %>	
+<%= link_to @post.user.display_name, user_posts_url(@post.user) %>
+<%= link_to pluralize(@post.comment_count, "Comment"), post_comments_url(@post) %>	
+<%= time_ago_in_words @post.post_date %> ago

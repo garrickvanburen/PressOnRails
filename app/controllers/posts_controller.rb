@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   def index
     
     posts_count = params[:format] ? options['posts_per_page'] : options['posts_per_rss']
-    @posts = Post.find(:all, :conditions => ['post_date <= ? AND post_type = ?', Time.now, 'post'], :limit => posts_count)
+    @posts = Post.find(:all, :conditions => ['post_date <= ? AND post_type = ?', Time.now, 'post'], :order => 'post_date DESC', :limit => posts_count)
     
     respond_to do |format|
       format.html
@@ -14,16 +14,18 @@ class PostsController < ApplicationController
       format.json
 
       format.ics
-      format.kml
+      
+      format.m
+
+      format.m3u
     end
     
   end
 
 
 
-  def show
-    
-    @post = Post.find_by_post_name(params[:post_name])
+  def show    
+    @post = Post.find_by_post_name(params[:post_name]||params[:id])
     
     respond_to do |format|
       format.html
@@ -32,7 +34,6 @@ class PostsController < ApplicationController
       format.json
 
       format.ics
-      format.kml
     end
     
   end

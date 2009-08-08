@@ -1,0 +1,7 @@
+#EXTM3U
+<% @posts.select{|p| !p.enclosures.empty? && p.enclosures.to_s.match(/([.](aif|audio|m4a|m4b|mp3|ogg|wav))/)}.each do |post| -%>
+<% post.enclosures.each do |e| -%>
+#EXTINF:<%=  post.user.display_name %>: <%= post.post_title %>
+<%= e[0] %>
+<% end -%>
+<% end -%>

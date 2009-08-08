@@ -1,7 +1,6 @@
-# Be sure to restart your server when you modify this file.
+Mime::Type.register_alias "audio/mpegurl",        :m3u
+Mime::Type.register_alias 'audio/x-scpls',        :pls
+Mime::Type.register_alias "text/html",            :m
 
-# Add new mime types for use in respond_to blocks:
-# Mime::Type.register "text/richtext", :rtf
-# Mime::Type.register_alias "text/html", :iphone
 #Mime::Type.register_alias "text/calendar", :ics
 #Mime::Type.register_alias "application/vnd.google-earth.kml+xml", :kml

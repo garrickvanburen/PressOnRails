@@ -17,7 +17,7 @@ class User < ActiveRecord::Base
   end
 
   def hash_password
-    self.password = Digest::MD5.hexdigest(self.password)
+    #self.password = Digest::MD5.hexdigest(self.password)
   end
 
 end

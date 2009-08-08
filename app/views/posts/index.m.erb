@@ -1,0 +1,16 @@
+<ul>
+
+<% @posts.each do |post| %>
+	<li>
+		<strong><%= link_to post.post_title, post_url(post) %></strong>
+		<br />
+		<%= time_ago_in_words post.post_date %> ago
+		<br />
+		<%= link_to post.user.display_name, user_posts_url(post.user) %>
+		<br />
+		<%= h post.post_content.gsub(/<\/?[^>]*>/, "") %>
+		<br />
+	</li>
+<% end %>
+
+</ul>

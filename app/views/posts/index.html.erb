@@ -1,11 +1,19 @@
 
-
 <% @posts.each do |post| %>
-	<h1><%= post.post_title %></h1>
-	<%= post.post_content %>	
-	<%= link_to post.user.user_nicename, user_posts_url(post.user) %>
-	<%= link_to pluralize(post.comment_count, "Comment"), post_comments_url(post) %>	
-	<%= time_ago_in_words post.post_date %> ago
-	<%= link_to 'Edit', edit_post_url(post) %>
-	<%= post.meta['start_date'] %>
+	<div id="post-<%= post.ID %>" class="post">
+		<h1 class="post-title"><%= link_to post.post_title, post_url(post) %></h1>
+		<div class="post-date"><%= time_ago_in_words post.post_date %> ago</div>
+		<div class="post-author"><%= link_to post.user.display_name, user_posts_url(post.user) %></div>
+		<div class="post-body"><p><%= post.post_content %></p></div>
+		
+		<% if post.comment_count %>
+		<div class="post-comments">
+			<h2><%= pluralize post.comment_count, "Comment" %></h2>
+			<% post.comments.each do |comment| %>
+				<%= render :partial => "comment", :locals => {:comment => comment}%>
+			<% end %>
+		</div>
+		<% end %>
+		
+	</div>
 <% end %>
