@@ -2,9 +2,15 @@ class PostsController < ApplicationController
  
   def index
     
-    posts_count = params[:format] ? options['posts_per_page'] : options['posts_per_rss']
-    @posts = Post.find(:all, :conditions => ['post_date <= ? AND post_type = ?', Time.now, 'post'], :order => 'post_date DESC', :limit => posts_count)
-    
+    if params[:q]
+      q = params[:q]
+      @posts = Post.find(:all, :conditions => ['post_title REGEXP ? OR post_content REGEXP ?', q, q])
+      
+    else
+      posts_count = params[:format] ? options['posts_per_page'] : options['posts_per_rss']
+      @posts = Post.find(:all, :conditions => ['post_date <= ? AND post_type = ?', Time.now, 'post'], :order => 'post_date DESC', :limit => posts_count)
+    end
+  
     respond_to do |format|
       format.html
       format.atom

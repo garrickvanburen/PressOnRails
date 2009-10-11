@@ -9908,3 +9908,765 @@ Rendering posts/index
   [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT meta_value FROM `wp_postmeta` WHERE (`wp_postmeta`.`meta_key` = 'enclosure' AND `wp_postmeta`.`post_id` = 3) [0m
   [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
 Completed in 289ms (View: 172, DB: 89) | 200 OK [http://pressonrails.dev/categories/podcasts.m3u]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:30:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:30:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mOption Load (36.1ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Load (44.7ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (7.7ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mOption Columns (22.6ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mPost Load (4.0ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-08-08 00:30:17' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (21.2ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mPost Load (3.5ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-08-08 00:30:17' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mUser Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (3.1ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mUser Columns (18.1ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mUser Load (7.3ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;35;1mComment Load (1.2ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Columns (8.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+  [4;35;1mComment Load (3.7ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+Rendered posts/_comment (1.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (15.9ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;36;1mComment Load (1.6ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (1.2ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered posts/_comment (0.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mComment Columns (19.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered posts/_comment (1.1ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (54.2ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered layouts/_header (76.8ms)
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+Rendered layouts/_flashes (0.4ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;35;1mCategory Load (1.5ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (9.5ms)
+Rendered layouts/_flashes (0.3ms)
+  [4;36;1mCategory Columns (19.2ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (14.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (1.1ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (50.9ms)
+Completed in 3623ms (View: 1940, DB: 114) | 200 OK [http://pressonrails.dev/]
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (48.0ms)
+Completed in 3622ms (View: 1798, DB: 212) | 200 OK [http://pressonrails.dev/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:30:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"sheff"}
+  [4;35;1mPost Load (541.6ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_title REGEXP 'sheff' OR post_content REGEXP 'sheff') [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mOption Load (6.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (373.8ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (15.2ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+  [4;36;1mPost Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+Rendered layouts/_footer (39.2ms)
+Completed in 1096ms (View: 75, DB: 927) | 200 OK [http://pressonrails.dev/?q=sheff]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:31:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+  [4;36;1mPost Load (35.3ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (post_title REGEXP 'shef' OR post_content REGEXP 'shef') [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (3.2ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mUser Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+  [4;35;1mComment Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (0.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 201) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 202) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 203) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 204) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 205) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+Rendered posts/_comment (0.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 258) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 259) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 260) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 261) [0m
+  [4;36;1mOption Load (7.1ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (29.7ms)
+Completed in 272ms (View: 201, DB: 61) | 200 OK [http://pressonrails.dev/?q=shef]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:31:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+  [4;35;1mPost Load (24.7ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_title REGEXP 'shef' OR post_content REGEXP 'shef') [0m
+  [4;36;1mPost Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+  [4;36;1mComment Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 201) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 202) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 203) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 204) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 205) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+Rendered posts/_comment (0.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 258) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 259) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 260) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 261) [0m
+  [4;35;1mOption Load (5.8ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (11.6ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_terms` [0m
+  [4;35;1mCategory Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `wp_terms`[0m
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (29.9ms)
+Completed in 221ms (View: 161, DB: 47) | 200 OK [http://pressonrails.dev/?q=shef]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-08 00:32:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+
+SyntaxError (/Users/garrickvanburen/Documents/Projects/PressOnRails/app/app/controllers/posts_controller.rb:7: syntax error, unexpected ')', expecting tASSOC):
+  
+
+Rendered rescues/_trace (41.4ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:32:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+
+ArgumentError (Unknown key(s): uniq):
+  app/controllers/posts_controller.rb:7:in `index'
+
+Rendered rescues/_trace (170.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:32:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+
+ArgumentError (Unknown key(s): unique):
+  app/controllers/posts_controller.rb:7:in `index'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-08-08 00:33:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+
+SyntaxError (/Users/garrickvanburen/Documents/Projects/PressOnRails/app/app/controllers/posts_controller.rb:7: syntax error, unexpected ')', expecting tASSOC):
+  
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:34:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts", "q"=>"shef"}
+  [4;36;1mPost Load (33.9ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (post_title REGEXP 'shef' OR post_content REGEXP 'shef') [0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mUser Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+  [4;35;1mComment Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (0.4ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 201) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 202) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 203) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 204) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 205) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+Rendered posts/_comment (0.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 258) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (9.8ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 259) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 260) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 261) [0m
+  [4;36;1mOption Load (8.8ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (6.0ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (9.5ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (0.7ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (31.2ms)
+Completed in 184ms (View: 99, DB: 73) | 200 OK [http://pressonrails.dev/?q=shef]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:34:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mOption Load (6.2ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (52.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mPost Load (13.6ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-08-08 00:34:18' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (82.4ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mUser Columns (41.8ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (11.6ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;36;1mComment Columns (50.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (18.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (9.2ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (48.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (7.9ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (86.5ms)
+Completed in 518ms (View: 90, DB: 338) | 200 OK [http://pressonrails.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-08-08 00:34:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"first-crack-120-wonderlicks-tim-quirk-on-truth-through-music", "controller"=>"posts"}
+  [4;35;1mPost Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mPost Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-120-wonderlicks-tim-quirk-on-truth-through-music') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mOption Load (6.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (9.3ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_terms` [0m
+  [4;35;1mCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `wp_terms`[0m
+  [4;36;1mPost Load (0.8ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (30.3ms)
+Completed in 221ms (View: 194, DB: 17) | 200 OK [http://pressonrails.dev/posts/first-crack-120-wonderlicks-tim-quirk-on-truth-through-music]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-08-08 00:35:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;36;1mOption Load (8.3ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (14.6ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mPost Load (11.8ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-08-08 00:35:17' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;35;1mPost Columns (7.9ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mUser Columns (6.8ms)[0m   [0;1mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mUser Load (1.4ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (9.2ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;35;1mComment Columns (3.6ms)[0m   [0mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (0.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (8.3ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (13.7ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.7ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (0.5ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.4ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered posts/_comment (0.4ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;36;1mCategory Load (1.4ms)[0m   [0;1mSELECT * FROM `wp_terms` [0m
+  [4;35;1mCategory Columns (7.8ms)[0m   [0mSHOW FIELDS FROM `wp_terms`[0m
+  [4;36;1mPost Load (1.8ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (43.4ms)
+Completed in 365ms (View: 244, DB: 101) | 200 OK [http://pressonrails.dev/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-08-08 00:35:22) [GET]
+  Parameters: {"action"=>"show", "id"=>"first-crack-118-shef-turns-the-tables-on-garrick", "controller"=>"posts"}
+  [4;36;1mPost Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mPost Load (0.5ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-118-shef-turns-the-tables-on-garrick') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mOption Load (6.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (7.7ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (0.8ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (100.0ms)
+Completed in 164ms (View: 137, DB: 18) | 200 OK [http://pressonrails.dev/posts/first-crack-118-shef-turns-the-tables-on-garrick]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing CommentsController#index (for 127.0.0.1 at 2009-08-08 00:35:48) [GET]
+  Parameters: {"post_id"=>"first-crack-118-shef-turns-the-tables-on-garrick", "action"=>"index", "controller"=>"comments"}
+  [4;35;1mPost Columns (6.5ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mPost Load (3.3ms)[0m   [0;1mSELECT id FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-118-shef-turns-the-tables-on-garrick') LIMIT 1[0m
+  [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.`comment_post_ID` IS NULL) [0m
+Rendering template within layouts/application
+Rendering comments/index
+  [4;36;1mOption Load (5.9ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (15.2ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (10.8ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (2.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (29.6ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (0.9ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (59.4ms)
+Completed in 148ms (View: 61, DB: 65) | 200 OK [http://pressonrails.dev/posts/first-crack-118-shef-turns-the-tables-on-garrick/comments]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-08-08 00:36:02) [GET]
+  Parameters: {"action"=>"show", "id"=>"first-crack-113-tim-coyne-on-how-hollywood-works", "controller"=>"posts"}
+  [4;35;1mPost Columns (3.4ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-113-tim-coyne-on-how-hollywood-works') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mOption Load (5.8ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (9.0ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;36;1mCategory Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_terms` [0m
+  [4;35;1mCategory Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `wp_terms`[0m
+  [4;36;1mPost Load (0.9ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (32.2ms)
+Completed in 187ms (View: 157, DB: 18) | 200 OK [http://pressonrails.dev/posts/first-crack-113-tim-coyne-on-how-hollywood-works]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-08-08 00:37:22) [GET]
+  Parameters: {"action"=>"show", "id"=>"first-crack-113-tim-coyne-on-how-hollywood-works", "controller"=>"posts"}
+  [4;36;1mPost Columns (45.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mPost Load (5.6ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-113-tim-coyne-on-how-hollywood-works') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+  [4;36;1mUser Columns (102.3ms)[0m   [0;1mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mUser Load (22.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+
+ActionView::TemplateError (undefined local variable or method `post' for #<ActionView::Base:0x2186bd4>) on line #7 of app/views/posts/show.html.erb:
+4: 
+5: <div class="post-body"><%= @post.post_content %></div>
+6: 
+7: <% if post.comment_count %>
+8: <div class="post-comments">
+9: 	<h2><%= pluralize post.comment_count, "Comment" %></h2>
+10: 	<% post.comments.each do |comment| %>
+
+    app/views/posts/show.html.erb:7
+    app/controllers/posts_controller.rb:36:in `show'
+
+Rendered rescues/_trace (132.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-08-08 00:37:36) [GET]
+  Parameters: {"action"=>"show", "id"=>"first-crack-113-tim-coyne-on-how-hollywood-works", "controller"=>"posts"}
+  [4;35;1mPost Columns (3.5ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mPost Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-113-tim-coyne-on-how-hollywood-works') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+
+ActionView::TemplateError (undefined local variable or method `post' for #<ActionView::Base:0x220d044>) on line #9 of app/views/posts/show.html.erb:
+6: 
+7: <% if @post.comment_count %>
+8: <div class="post-comments">
+9: 	<h2><%= pluralize post.comment_count, "Comment" %></h2>
+10: 	<% @post.comments.each do |comment| %>
+11: 		<%= render :partial => "posts/comment", :locals => {:comment => comment}%>
+12: 	<% end %>
+
+    app/views/posts/show.html.erb:9
+    app/controllers/posts_controller.rb:36:in `show'
+
+Rendered rescues/_trace (158.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-08-08 00:37:45) [GET]
+  Parameters: {"action"=>"show", "id"=>"first-crack-113-tim-coyne-on-how-hollywood-works", "controller"=>"posts"}
+  [4;36;1mPost Columns (10.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mPost Load (21.5ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'first-crack-113-tim-coyne-on-how-hollywood-works') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+  [4;36;1mUser Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `wp_users`[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+  [4;35;1mComment Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (0.4ms)
+  [4;36;1mOption Load (6.2ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mOption Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `wp_options`[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_flashes (0.1ms)
+  [4;35;1mCategory Load (0.6ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (1.0ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (28.7ms)
+Completed in 138ms (View: 79, DB: 49) | 200 OK [http://pressonrails.dev/posts/first-crack-113-tim-coyne-on-how-hollywood-works]
+  [4;36;1mSQL (37.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-05 21:46:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mOption Load (102.3ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mPost Load (31.5ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-09-05 21:46:14' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (3.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mUser Columns (20.5ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (21.8ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (7.5ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;36;1mComment Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (27.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.7ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (103.2ms)
+Rendered layouts/_flashes (0.4ms)
+  [4;35;1mCategory Load (3.1ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (28.6ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (107.0ms)
+Completed in 863ms (View: 467, DB: 267) | 200 OK [http://pressonrails.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#show (for 127.0.0.1 at 2009-09-05 21:46:21) [GET]
+  Parameters: {"post_name"=>"rss", "action"=>"show", "controller"=>"posts"}
+  [4;35;1mPost Columns (2.7ms)[0m   [0mSHOW FIELDS FROM `wp_posts`[0m
+  [4;36;1mPost Load (16.8ms)[0m   [0;1mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_name` = 'rss') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering posts/show
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.post_title) on line #1 of app/views/posts/show.html.erb:
+1: <h1 class="post-title"><%= @post.post_title %></h1>
+2: <div class="post-date"><%= time_ago_in_words @post.post_date %> ago</div>
+3: <div class="post-author"><%= link_to @post.user.display_name, user_posts_url(@post.user) %></div>
+4: 
+
+    app/views/posts/show.html.erb:1
+    app/controllers/posts_controller.rb:36:in `show'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (54.4ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (37.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-09-10 09:10:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mOption Load (101.3ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mPost Load (37.7ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-09-10 09:10:25' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (3.2ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mUser Columns (21.7ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.8ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (22.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (7.7ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;36;1mComment Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (49.1ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.6ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.8ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.9ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered posts/_comment (0.4ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (107.7ms)
+Rendered layouts/_flashes (0.4ms)
+  [4;35;1mCategory Load (3.4ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (26.6ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (93.1ms)
+Completed in 946ms (View: 567, DB: 273) | 200 OK [http://pressonrails.dev/]
+  [4;36;1mSQL (80.9ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PostsController#index (for 127.0.0.1 at 2009-10-10 17:16:37) [GET]
+  Parameters: {"action"=>"index", "controller"=>"posts"}
+  [4;35;1mOption Load (581.3ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mOption Columns (46.0ms)[0m   [0;1mSHOW FIELDS FROM `wp_options`[0m
+  [4;35;1mPost Load (156.5ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (post_date <= '2009-10-10 17:16:38' AND post_type = 'post') ORDER BY post_date DESC LIMIT 10[0m
+Rendering template within layouts/application
+Rendering posts/index
+  [4;36;1mPost Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `wp_posts`[0m
+  [4;35;1mUser Columns (66.8ms)[0m   [0mSHOW FIELDS FROM `wp_users`[0m
+  [4;36;1mUser Load (0.9ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (31.1ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 283) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (0.4ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 263) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;35;1mComment Load (9.2ms)[0m   [0mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 257) [0m
+  [4;36;1mComment Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `wp_comments`[0m
+Rendered posts/_comment (29.1ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (1.3ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 254) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 239) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (1.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 236) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (1.6ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 221) [0m
+Rendered posts/_comment (7.2ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (1.0ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 213) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (2.5ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 206) [0m
+Rendered posts/_comment (0.5ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_users` WHERE (`wp_users`.`ID` = 1) [0m
+  [4;36;1mComment Load (0.4ms)[0m   [0;1mSELECT * FROM `wp_comments` WHERE (`wp_comments`.comment_post_ID = 200) [0m
+Rendered posts/_comment (0.3ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `wp_options` [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `wp_options` [0m
+Rendered layouts/_header (33.5ms)
+Rendered layouts/_flashes (0.4ms)
+  [4;35;1mCategory Load (148.1ms)[0m   [0mSELECT * FROM `wp_terms` [0m
+  [4;36;1mCategory Columns (419.2ms)[0m   [0;1mSHOW FIELDS FROM `wp_terms`[0m
+  [4;35;1mPost Load (15.1ms)[0m   [0mSELECT * FROM `wp_posts` WHERE (`wp_posts`.`post_type` = 'page') ORDER BY post_title ASC[0m
+Rendered layouts/_footer (755.8ms)
+Completed in 2533ms (View: 719, DB: 1570) | 200 OK [http://pressonrails.dev/]

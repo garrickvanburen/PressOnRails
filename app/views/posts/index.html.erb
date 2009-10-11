@@ -4,7 +4,7 @@
 		<h1 class="post-title"><%= link_to post.post_title, post_url(post) %></h1>
 		<div class="post-date"><%= time_ago_in_words post.post_date %> ago</div>
 		<div class="post-author"><%= link_to post.user.display_name, user_posts_url(post.user) %></div>
-		<div class="post-body"><p><%= post.post_content %></p></div>
+		<div class="post-body"><%= post.post_content %></div>
 		
 		<% if post.comment_count %>
 		<div class="post-comments">
