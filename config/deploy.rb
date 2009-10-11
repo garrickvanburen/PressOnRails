@@ -31,7 +31,7 @@ role :db,  ip_address, :primary => true
 #############################################################
 
 set :scm, :git 
-set :repository,  "ssh://#{user}@8.12.42.249/home/#{domain}/git/#{application}.git"
+set :repository,  ""
 
 
 #############################################################
